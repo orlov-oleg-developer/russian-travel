@@ -8,4 +8,4 @@
 4. Подходы к позиционированию: flex, position и grid;
 5. Адаптивность.
 
-Ссылка на GitHub Pages - [ссылка](https://orlov-oleg-developer.github.io/russian-travel/index.html)
+Ссылка на GitHub Pages - [ссылка](https://orlov-oleg-developer.github.io/russian-travel/)
