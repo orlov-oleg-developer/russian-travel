@@ -1,0 +1,36 @@
+.lead__caption {
+  align-self: flex-start;
+  margin: 0;
+  padding: 8px 0 0 0;
+  font-family: 'Inter';
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    padding-left: calc((1024px - 100vw)/(1024 - 930)*(48 - 0) + 0px);
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .lead__caption {
+    padding-left: calc((100vw - 930px)/(930 - 768)*(48 - 24) + 48px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+} 
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding-left: 16px;
+  } 
+}
+

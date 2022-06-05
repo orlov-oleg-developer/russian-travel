@@ -1,0 +1,19 @@
+.root {
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 28px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #2A2C2F;
+  color: white;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 320px) {
+  .root {
+    padding: 16px 0px 24px;
+  }
+}
+

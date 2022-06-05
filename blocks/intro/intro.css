@@ -1,0 +1,38 @@
+.intro {
+  box-sizing: border-box;
+  width: 984px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1110px) {
+  .intro {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 100%;
+    padding: 0 calc((100vw - 768px)/(1024 - 768)*(48 - 24) + 24px) 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 0px 24px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 0px 16px 0;
+  }
+}
+
+
+
+
+
+
