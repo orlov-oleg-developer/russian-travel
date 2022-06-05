@@ -1,10 +1,10 @@
 .intro__title {
   margin: 0 0 40px;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 54px;
   line-height: 58px;
   font-weight: 900;
-  text-align: start; 
+  text-align: start;
 }
 
 @media screen and (max-width: 768px) {
@@ -21,4 +21,3 @@
     line-height: 35px;
   }
 }
-   
