@@ -1,6 +1,8 @@
 .photo-grid {
   padding: 0 48px 0;
+  display: -ms-grid;
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, -webkit-max-content));
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
   gap: 16px;
 }
@@ -24,8 +26,3 @@
     gap: 12px;
   }
 }
-
-
-
-
-

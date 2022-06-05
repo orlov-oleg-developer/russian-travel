@@ -1,5 +1,6 @@
 .lead__caption {
-  align-self: flex-start;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   margin: 0;
   padding: 8px 0 0 0;
   font-family: 'Inter';
@@ -26,11 +27,10 @@
   .lead__caption {
     padding-left: 24px;
   }
-} 
+}
 
 @media screen and (max-width: 320px) {
   .lead__caption {
     padding-left: 16px;
-  } 
+  }
 }
-

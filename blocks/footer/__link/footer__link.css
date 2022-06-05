@@ -1,11 +1,15 @@
 .footer__link {
   color: white;
   text-decoration: none;
-  margin: 0 18px 0 0; 
+  margin: 0 18px 0 0;
   font-family: 'Inter';
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
+
+  -webkit-transition: opacity 0.25s ease-in-out;
+
+  -o-transition: opacity 0.25s ease-in-out;
 
   transition: opacity 0.25s ease-in-out;
 }

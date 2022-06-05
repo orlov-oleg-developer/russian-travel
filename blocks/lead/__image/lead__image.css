@@ -1,5 +1,5 @@
 .lead__image {
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 100%;
 }
-
