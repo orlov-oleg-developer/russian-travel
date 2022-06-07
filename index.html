@@ -9,15 +9,19 @@
 <body class="root">
   <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="Логотип сайта">
-    <div class="header__lang-links">
-      <a href="#" class="header__lang-link header__lang-link_underline">Ru</a>
-      <a href="#" class="header__lang-link">En</a>
-    </div>
+    <ul class="header__lang-links">
+      <li class="header__lang-links-item">
+        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
+      </li>
+      <li class="header__lang-links-item">
+        <a href="#" class="header__lang-link">En</a>
+      </li>
+    </ul>
   </header>
   <main class="content root__content">
     <section class="lead"  aria-label="Начальная секция">
-      <h1 class="lead__title">Путешествия по России</h1>
-      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+      <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+      <p class="lead__subtitle">Настоящая страна не в выпусках новостей,&nbsp;а&nbsp;здесь.</p>
       <img class="lead__image" src="./images/lead-polka.jpg" alt="Фото плацкарта и карты России">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>
@@ -29,26 +33,28 @@
         загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
         усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
         достойные вашего отпуска.</p>
-      <p class="intro__list">Часовых поясов <span class="intro__span-accent">11</span></p>
-      <p class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></p>
-      <p class="intro__list">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></p>
-      <p class="intro__list">Природных заповедников <span class="intro__span-accent">105</span></p>
-      <p class="intro__list">Аэропортов <span class="intro__span-accent">241</span></p>
+      <ul class="intro__list">
+        <li class="intro__list-item">Часовых поясов <span class="intro__span-accent">11</span></li>
+        <li class="intro__list-item">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+        <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+        <li class="intro__list-item">Природных заповедников <span class="intro__span-accent">105</span></li>
+        <li class="intro__list-item">Аэропортов <span class="intro__span-accent">241</span></li>
+      </ul>
     </section>
-    <section class="photo-grid" aria-label="Секция с фотографиями">
-      <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
-      <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Фото гор">
-      <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Фото тумана">
-      <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Фото леса в тумане">
-      <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Фото колеса самолета">
-      <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Фото побережья Байкала">
-      <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Фото Эльбруса">
-      <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Фото Кондратьево">
-      <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Фото Камчатки">
-      <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Фото Камчатки">
-      <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Фото гор на Байкале">
-      <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Фото Эргаки">
-    </section>
+    <ul class="photo-grid" aria-label="Секция с фотографиями">
+      <li><img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="Фото гор"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="Фото тумана"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" alt="Фото леса в тумане"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" alt="Фото колеса самолета"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" alt="Фото побережья Байкала"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" alt="Фото Эльбруса"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" alt="Фото Кондратьево"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" alt="Фото Камчатки"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" alt="Фото Камчатки"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="Фото гор на Байкале"></li>
+      <li><img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Фото Эргаки"></li>
+    </ul>
     <section class="places" aria-label="Секция с описанием мест">
       <article class="place">
         <h2 class="place__title">Куршская коса</h2>
@@ -132,7 +138,7 @@
     </section>
     <section class="cover content__cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__item">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </a>
     </section>

@@ -2,8 +2,8 @@
   margin-bottom: 80px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 40px fit-content(484px);
-  grid-template-columns: 1fr fit-content(484px);
+  -ms-grid-columns: fit-content(460px) 40px 1fr;
+  grid-template-columns: fit-content(460px) 1fr;
   row-gap: 48px;
   -webkit-column-gap: 40px;
      -moz-column-gap: 40px;
@@ -16,9 +16,8 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    -ms-grid-columns: 1fr 32px fit-content(456px);
-    grid-template-columns: 1fr fit-content(456px);
-    row-gap: 48px;
+    -ms-grid-columns: fit-content(440px) 32px 1fr;
+    grid-template-columns: fit-content(440px) 1fr;
     -webkit-column-gap: 32px;
        -moz-column-gap: 32px;
             column-gap: 32px;
@@ -28,16 +27,15 @@
 @media screen and (max-width: 768px) {
   .place {
     margin-bottom: 73px;
-    -ms-grid-columns: 1fr 28px fit-content(352px);
-    grid-template-columns: 1fr fit-content(352px);
-    row-gap: 48px;
+    -ms-grid-columns: fit-content(340px) 28px 1fr;
+    grid-template-columns: fit-content(340px) 1fr;
     -webkit-column-gap: 28px;
        -moz-column-gap: 28px;
             column-gap: 28px;
   }
 }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 670px) {
     .place {
       margin-bottom: 50px;
       grid-template-columns: repeat(auto-fit, minmax(320px, -webkit-max-content));

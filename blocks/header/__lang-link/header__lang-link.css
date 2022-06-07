@@ -1,7 +1,5 @@
 .header__lang-link {
   color: white;
-  margin-right: 18px;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: normal;
@@ -10,10 +8,6 @@
   -webkit-transition: opacity 0.25s ease-in-out;
   -o-transition: opacity 0.25s ease-in-out;
   transition: opacity 0.25s ease-in-out;
-}
-
-.header__lang-link:last-of-type {
-  margin-right: 0;
 }
 
 .header__lang-link:hover {
