@@ -1,4 +1,5 @@
 .photo-grid {
+  margin: 0;
   padding: 0 48px 0;
   display: -ms-grid;
   display: grid;
