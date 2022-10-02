@@ -1,6 +1,6 @@
-# Проект: Путешествие по России
+## Проект: Путешествие по России
 
-## Demo - [ссылка](https://orlov-oleg-developer.github.io/russian-travel/)
+### Demo - [ссылка](https://orlov-oleg-developer.github.io/russian-travel/)
 
 Данный проект - практическое задание Яндекс Практикума. Работа направлена на закрепление изученного материала по:
 
@@ -11,7 +11,7 @@
 5. Адаптивности.
 
 ---
-## Стек:
+### Стек:
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
