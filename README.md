@@ -1,11 +1,18 @@
 # Проект: Путешествие по России
 
-Данный проект - практическое задание Яндекс Практикума. Работа направлена на закрепление изученного материала по верстке адаптивных веб страниц. В проекте используется следующее:
+## Demo - [ссылка](https://orlov-oleg-developer.github.io/russian-travel/)
 
-1. HTML семантика;
-2. БЭМ методология;
-3. Кроссбраузерность;
-4. Подходы к позиционированию: flex, position и grid;
-5. Адаптивность.
+---
+Данный проект - практическое задание Яндекс Практикума. Работа направлена на закрепление изученного материала по:
 
-Ссылка на GitHub Pages - [ссылка](https://orlov-oleg-developer.github.io/russian-travel/)
+1. HTML семантике;
+2. БЭМ методологии;
+3. Кроссбраузерности;
+4. Изучению подходов позиционирования элементов: flex, position и grid;
+5. Адаптивности.
+
+---
+## Стек:
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
